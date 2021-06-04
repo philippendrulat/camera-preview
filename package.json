@@ -1,51 +1,51 @@
 {
-  "name": "@capacitor-community/camera-preview",
-  "version": "1.2.1",
-  "description": "Camera preview",
-  "main": "dist/esm/index.js",
-  "types": "dist/esm/index.d.ts",
-  "scripts": {
-    "build": "npm run clean && tsc",
-    "clean": "rimraf './dist'",
-    "watch": "tsc --watch",
-    "prepublishOnly": "npm run build",
-    "prepare": "npm run build"
-  },
-  "author": "Ariel Hernandez Musa",
-  "license": "MIT",
-  "dependencies": {
-    "@capacitor/core": "latest"
-  },
-  "devDependencies": {
-    "@capacitor/android": "latest",
-    "@capacitor/ios": "latest",
-    "typescript": "^3.2.4",
-    "rimraf": "latest"
-  },
-  "files": [
-    "dist/",
-    "ios/",
-    "android/",
-    "CapacitorCommunityCameraPreview.podspec"
-  ],
-  "keywords": [
-    "capacitor",
-    "plugin",
-    "native"
-  ],
-  "capacitor": {
-    "ios": {
-      "src": "ios"
+    "name": "@capacitor-community/camera-preview",
+    "version": "1.2.1",
+    "description": "Camera preview",
+    "main": "dist/esm/index.js",
+    "types": "dist/esm/index.d.ts",
+    "scripts": {
+        "build": "npm run clean && tsc",
+        "clean": "rimraf './dist'",
+        "watch": "tsc --watch",
+        "prepublishOnly": "npm run build",
+        "prepare": "npm run build"
     },
-    "android": {
-      "src": "android"
+    "author": "Ariel Hernandez Musa",
+    "license": "MIT",
+    "dependencies": {
+        "@capacitor/core": "2.4.7"
+    },
+    "devDependencies": {
+        "@capacitor/android": "latest",
+        "@capacitor/ios": "latest",
+        "typescript": "^3.2.4",
+        "rimraf": "latest"
+    },
+    "files": [
+        "dist/",
+        "ios/",
+        "android/",
+        "CapacitorCommunityCameraPreview.podspec"
+    ],
+    "keywords": [
+        "capacitor",
+        "plugin",
+        "native"
+    ],
+    "capacitor": {
+        "ios": {
+            "src": "ios"
+        },
+        "android": {
+            "src": "android"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/capacitor-community/camera-preview.git"
+    },
+    "bugs": {
+        "url": "https://github.com/capacitor-community/camera-preview/issues"
     }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/capacitor-community/camera-preview.git"
-  },
-  "bugs": {
-    "url": "https://github.com/capacitor-community/camera-preview/issues"
-  }
 }
