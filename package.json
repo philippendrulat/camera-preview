@@ -17,7 +17,7 @@
     "@capacitor/core": "latest"
   },
   "devDependencies": {
-    "@capacitor/android": "latest",
+    "@capacitor/android": "2.4.7",
     "@capacitor/ios": "latest",
     "typescript": "^3.2.4",
     "rimraf": "latest"
