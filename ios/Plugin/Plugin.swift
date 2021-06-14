@@ -31,7 +31,7 @@ public class CameraPreview: CAPPlugin {
         }
 
         if UIApplication.shared.statusBarOrientation.isPortrait {
-            self.previewView.frame = CGRect(x: self.x!, y: self.y!, min(height, self.width!), height: max(height, self.width!))
+            self.previewView.frame = CGRect(x: self.x!, y: self.y!, width: min(height, self.width!), height: max(height, self.width!))
             self.cameraController.previewLayer?.frame = self.previewView.frame
         }
 

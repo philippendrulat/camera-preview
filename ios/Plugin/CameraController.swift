@@ -422,9 +422,6 @@ extension CameraController: AVCaptureVideoDataOutputSampleBufferDelegate {
     }
 }
 
-
-
-
 enum CameraControllerError: Swift.Error {
     case captureSessionAlreadyRunning
     case captureSessionIsMissing
