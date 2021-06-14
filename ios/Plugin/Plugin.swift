@@ -44,6 +44,8 @@ public class CameraPreview: CAPPlugin {
             self.cameraController.previewLayer?.frame = self.previewView.frame
             self.cameraController.previewLayer?.connection?.videoOrientation = .portrait
         }
+
+        cameraController.updateVideoOrientation(on: self.previewView);
     }
 
     @objc func start(_ call: CAPPluginCall) {
